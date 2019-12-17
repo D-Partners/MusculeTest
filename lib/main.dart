@@ -9,6 +9,7 @@ void main() async {
   String ans = await loadAnswers();
   var json = jsonDecode(ans);
   List<String> codec = new List<String>.from(json);
+  print("codec loaded ${codec.length}");
 
   runApp(
     new MaterialApp(

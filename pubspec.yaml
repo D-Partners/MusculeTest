@@ -10,23 +10,22 @@ dependencies:
   flutter:
     sdk: flutter
 
-  cupertino_icons: ^0.1.2
   auto_size_text: ^2.1.0
   percent_indicator: "^2.1.1"
-  dropdown_menu: ^1.1.1
+  admob_flutter: "^0.3.4"
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
 flutter:
-  uses-material-design: true
-
   assets:
     - assets/femi.jpg
     - assets/mask.jpg
     - assets/andro.jpg
     - assets/answers.json
+
+  uses-material-design: true
 
 module:
   andoridX: true
